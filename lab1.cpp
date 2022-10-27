@@ -71,13 +71,10 @@ int main()
 			if(nums[i]=="switch")
 			{
 				switchcount+=1;
-				//cout<<switchcount<<endl;
 				for(int j=i+1;j<int(nums.size());j++)
 				{
-					//cout<<"nums[j] is now: "<<nums[j]<<endl;
 					if (nums[j]=="case")
 						casecount+=1;
-						//cout<<"casecount is now: "<<casecount<<endl;}
 					else if(nums[j]=="switch" )
 					{
 						i=j-1;
