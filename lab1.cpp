@@ -54,7 +54,7 @@ int main()
 						}
 					}
 					i = j+1;
-					j = i;
+					j ++;
 				}
 				else
 					j++;
@@ -63,7 +63,6 @@ int main()
 				{i++;j=i;}
 		}
 	}
-	if(level>=1)
 	cout<<"total number of keywords is: "<<keywordcount<<endl;
 	if(level>1)
 	{
