@@ -25,7 +25,7 @@ int main()
 	int ifelsecount=0;
 	int ifelseifcount=0;
 	ifstream inFile;
-	cout<<"Please type the file name: ";
+	cout<<"Please enter the file name with suffix name(eg..cpp): ";
 	cin>>filename;
 	cout<<"Please choose the level(1,2,3,4): ";
 	int level;
